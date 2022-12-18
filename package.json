@@ -1,0 +1,20 @@
+{
+  "name": "qr-api-worker",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npx wrangler dev ./src/index.ts",
+    "publish": "npx wrangler publish ./src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^2.3.1",
+    "qr-image": "^3.2.0",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20221111.1",
+    "@types/qr-image": "3.2.5",
+    "typescript": "4.9.4",
+    "wrangler": "2.6.2"
+  },
+  "private": true
+}
